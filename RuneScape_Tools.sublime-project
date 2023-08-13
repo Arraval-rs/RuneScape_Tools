@@ -2,13 +2,13 @@
     "folders":
     [
         {
-            "path": "src",
-            "follow_symlinks": true
-        }
+            "path": ".",
+            /*"follow_symlinks": true*/
+        },
     ],
     "settings":
     {
-        "tab_size": 8
+        "tab_size": 8,
     },
-    "build_systems": []
+    "build_systems": [],
 }
