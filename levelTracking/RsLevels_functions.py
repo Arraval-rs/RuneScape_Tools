@@ -16,7 +16,6 @@ def load_skills():
 		dict = {}
 		for item in skill_order:
 			dict[item] = RSL_skills.Skill(item, 0, 0, 0, 0, 0)
-		print(dict)
 		return dict
 
 def save_skills():
