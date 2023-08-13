@@ -17,23 +17,32 @@ def generate_image(file, size):
 	img.save(bio, format = "PNG")
 	return bio.getvalue()
 
+text_spacing = 12
+button_spacing = 6
+
 root_window = 	[
-					[
-						sg.Image(data = generate_image("images/Coins_10000.png", (32, 32))),
-						sg.Text(text = "Price Checker"),
-						sg.Button(button_text = "Launch", key = "launch_priceChecker")
-					],
-					[
-						sg.Image(data = generate_image("images/Archaeology.png", (32, 32))),
-						sg.Text(text = "Archaeology Calculator"),
-						sg.Button(button_text = "Launch", key = "launch_archCalc")
-					],
-					[
-						sg.Image(data = generate_image("images/Overall.png", (32, 32))),
-						sg.Text(text = "Level Tracker"),
-						sg.Button(button_text = "Launch", key = "launch_levelTracker")
+					[sg.Column(layout = [
+											[sg.Image(data = generate_image("images/Coins_10000.png", (32, 32)))],
+											[sg.Image(data = generate_image("images/Archaeology.png", (32, 32)))],
+											[sg.Image(data = generate_image("images/Overall.png", (32, 32)))]
+					]),
+					sg.Column(layout = [
+											[sg.Text(text = "Price Checker")],
+											[sg.Sizer(0, text_spacing)],
+											[sg.Text(text = "Archaeology Calculator")],
+											[sg.Sizer(0, text_spacing)],
+											[sg.Text(text = "Level Tracker")]
+					]),
+					sg.Column(layout = [
+											[sg.Button(button_text = "Launch", key = "launch_priceChecker")],
+											[sg.Sizer(0, button_spacing)],
+											[sg.Button(button_text = "Launch", key = "launch_archCalc")],
+											[sg.Sizer(0, button_spacing)],
+											[sg.Button(button_text = "Launch", key = "launch_levelTracker")]
+										])
 					]
 				]
+
 window = sg.Window("RuneScape Tools", root_window)
 
 while(1):
