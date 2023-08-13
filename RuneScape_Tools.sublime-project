@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "path": "src",
+            "follow_symlinks": true
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 8
+    },
+    "build_systems": []
+}

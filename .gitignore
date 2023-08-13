@@ -1,2 +1,5 @@
-# ignore all files in __pycache__ directories
+# ignore user specific .sublime-workspace files
+RuneScape_Tools.sublime-workspace
+
+# ignore __pycache__ directories
 __pycache__/
