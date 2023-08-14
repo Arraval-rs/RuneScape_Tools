@@ -50,6 +50,9 @@ while(1):
 	if event == sg.WIN_CLOSED:
 		break
 
+	if event != "__TIMEOUT__":
+		print(f"Event: {event}\nValues: {values}")
+
 	if event == "launch_levelTracker":
 		RSLevel.launchLevelTracker()
 	elif event == "launch_archCalc":

@@ -1,5 +1,8 @@
-# ignore user specific .sublime-workspace files
+# ignore dev specific .sublime-workspace files
 RuneScape_Tools.sublime-workspace
+
+# ignore user specific skills.json files
+skills.json
 
 # ignore __pycache__ directories
 __pycache__/
