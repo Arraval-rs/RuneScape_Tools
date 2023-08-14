@@ -17,8 +17,6 @@ Will assist in tracking current materials and the number of optimal sets to comp
 i.e. Compass pieces, xp, chronotes
 
 ## Level Tracking
-***Work in Progress***
-Will assist in tracking skill progress and goals. Will be updated to add training methods to reach goals
 v1.0:
 - Query player stats from hiscores list
 - Save stats to file automatically for faster load on launch
@@ -31,7 +29,6 @@ Future development:
 - Bug fix: Allow arrow key usage in XP and level inputs
 - Goal: Include training methods for various skills
 - Goal: Allow for modification of XP values when hiscores are out of date
-
 
 ## Price Checker
 v1.0: 
