@@ -50,7 +50,7 @@ class GeWindow:
 		return sg.Frame(layout = 
 									[
 										[
-											sg.Image(filename = "data/blank.png", size = (96,96), key = "summary_image"),
+											sg.Image(filename = "images/blank.png", size = (96,96), key = "summary_image"),
 											sg.Text(text = 
 															"Name: N/A\n" +
 															"Price: 0 gp\n" +
