@@ -57,7 +57,7 @@ while(1):
 	if event == "launch_levelTracker":
 		RSLevel.launchLevelTracker()
 	elif event == "launch_archCalc":
-		RSArch.launchArchCalc()
+		RSArch.ArchaeologyCalculator().eventLoop()
 	elif event == "launch_priceChecker":
 		RSPrice.launchPriceChecker()
 	# if event != "__TIMEOUT__":

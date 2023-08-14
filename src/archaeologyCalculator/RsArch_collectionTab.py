@@ -9,7 +9,7 @@ import json
 import PySimpleGUI as sg
 import RsArch_functions as RsA_f
 
-class Collections:
+class CollectionTab:
 	def __init__(self):
 		self.layout = [[]]
 		return
