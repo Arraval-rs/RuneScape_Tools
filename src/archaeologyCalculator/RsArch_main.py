@@ -1,7 +1,8 @@
 #####################################################
 # RsArch_main.py                                    #
-# Code for the event loop of the application        #
+# Event loop of the Archaeology Calculator tool		#
 #####################################################
+
 import os
 import io
 import json

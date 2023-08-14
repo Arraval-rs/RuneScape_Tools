@@ -1,7 +1,7 @@
 #####################################################
-# RsArch_functions.py							   #
-# Various functions used by the app				 #
-# Also includes some variables used across the app  # 
+# RsArch_functions.py							    #
+# Various functions and variables used by the		#
+# Archaeology Calculator tool						#
 #####################################################
 
 import os
@@ -20,9 +20,7 @@ level_xp = [0, 83, 174, 276, 388, 512, 650, 801, 969, 1154, 1358, 1584, 1833, 21
 active_collections = []
 
 # Dictionary for archaeology data
-json_file = open("data/arch_data.json", "rt")
-json_text = json_file.read()
-arch_dict = json.loads(json_text)
+arch_dict = func.load_json("data/arch_data.json")
 
 # attempts to read a value from a dictionary, returning NaN on failure and sending an error message in the terminal
 def read_value(dict, dict_path):

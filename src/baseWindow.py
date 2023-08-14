@@ -1,3 +1,8 @@
+#####################################################
+# baseWindow.py										#
+# Event loop of the base application window			#
+#####################################################
+
 import PySimpleGUI as sg
 from PIL import Image, ImageDraw
 import sys, os, io

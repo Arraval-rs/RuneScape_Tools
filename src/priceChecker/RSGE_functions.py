@@ -1,6 +1,7 @@
 #####################################################
 # RSGE_functions.py                                 #
-# Code for the update functions of the application  #
+# Various functions and variables used by the		#
+# Price Checker	tool								#
 #####################################################
 import os
 import io

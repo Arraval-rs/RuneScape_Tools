@@ -1,3 +1,9 @@
+#####################################################
+# RsLevels_functions.py                             #
+# Various functions and variables used by the		#
+# Level Tracker	tool								#
+#####################################################
+
 import os, io, re, json
 import urllib.request
 from bisect import bisect_left
@@ -71,13 +77,6 @@ def calculate_combat_level(style):
 		melee = int(skill_dict["Attack"].current_level) + int(skill_dict["Strength"].current_level)
 		return int(((13/10) * melee + defence + constitution + prayer + summoning) / 4)
 	return int(((13/5) * int(skill_dict[style].current_level) + defence + constitution + prayer + summoning) / 4)
-
-# validates numerical input to limit value between (1, max_value) and remove non-numerics
-def validate_numeric(number, max_value):
-	result = re.sub("[^0-9]", "", number)
-	if result == "":
-		result = 1
-	return max(1, min(int(result), max_value))
 
 # Order of skill data parsed from hiscores
 skill_order = ["Overall", "Attack", "Defence", "Strength", "Constitution", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecrafting", "Hunter", "Construction", "Summoning", "Dungeoneering", "Divination", "Invention", "Archaeology", "Necromancy"]

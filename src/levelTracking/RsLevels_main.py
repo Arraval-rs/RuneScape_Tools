@@ -1,3 +1,8 @@
+#####################################################
+# RsLevels_main.py                                  #
+# Event loop of the Level Tracker tool				#
+#####################################################
+
 import PySimpleGUI as sg
 
 #RsLevels files
