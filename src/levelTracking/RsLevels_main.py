@@ -20,8 +20,6 @@ def launchLevelTracker():
 			window["player_name"].update(values["player_name"][0:12])
 		else:
 			skillWindow.update_widgets(window, event, values)
-		if event != "__TIMEOUT__":
-			print(f"Event: {event}\nValues: {values}")
 	RSL_f.save_skills()
 	window.close()
 	return False
