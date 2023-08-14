@@ -38,20 +38,28 @@ def find_level(experience, elite):
 		return bisect_left(elite_experience_values, experience)
 	return bisect_left(experience_values, experience)
 
-# load load values from json at specified path
-def load_json(path):
+# Generates a dictionary from json read from the given source
+# Compatible with websites containing json data with the isUrl flag
+def load_json(source, isUrl):
 	try:
-		json_file = open(path, "rt")
+		if(isUrl):
+			request = urllib.request.Request(source, headers={"User-Agent" : "Magic Browser"})
+			content = urllib.request.urlopen(request)
+			return json.loads(content.read())
+		json_file = open(source, "rt")
 		data = json.loads(json_file.read())
 		return data
 	except Exception as e:
-		print(f"WARN: Cannot load data/skills.json\n\tWARN: {e}")
+		print(f"WARN: Cannot load from {source} with the following exception:\n\tWARN: {e}")
 		return {}
 
 # load save input values to json at specified path
 def save_json(data, path):
-	output_file = open(path, "w")
-	json.dump(data, output_file)
+	try:
+		output_file = open(path, "w")
+		json.dump(data, output_file)
+	except Exception as e:
+		print(f"WARN: Cannot write to {path} with the following exception:\n\tWARN: {e}")
 	return
 
 # validates numerical input to limit value between (1, max_value) and remove non-numerics

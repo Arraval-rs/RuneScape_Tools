@@ -25,21 +25,24 @@ class SkillWindow:
 		elif "Icon" in event and "Overall" not in event:
 			RSL_f.selected_skill = RSL_f.skill_dict[event.split()[0]]
 			self.update_skill_stats(RSL_f.selected_skill.name, window)
-		elif "skill_level_input" == event:
+		elif "skill_level_input" == event and values["skill_level_input"] != RSL_f.old["skill_level_input"]:
+			RSL_f.old["skill_level_input"] = values["skill_level_input"]
 			level = func.validate_numeric(values['skill_level_input'], 120)
 			window["skill_level_input"].update(f"{level:,}")
 			RSL_f.selected_skill.target_level = level
 			RSL_f.selected_skill.target_xp = func.find_experience(level, RSL_f.selected_skill.name == "Invention")
 			window["skill_xp_input"].update(f"{RSL_f.selected_skill.target_xp:,}")
 			window["skill_remainder"].update(f"Remainder: {max(0, int(RSL_f.selected_skill.target_xp) - int(RSL_f.selected_skill.current_xp)):,}")
-		elif "skill_xp_input" == event:
+		elif "skill_xp_input" == event and values["skill_xp_input"] != RSL_f.old["skill_xp_input"]:
+			RSL_f.old["skill_xp_input"] = values["skill_xp_input"]
 			experience = func.validate_numeric(values['skill_xp_input'], 200000000)
 			window["skill_xp_input"].update(f"{experience:,}")
 			RSL_f.selected_skill.target_xp = experience
 			RSL_f.selected_skill.target_level = func.find_level(experience, RSL_f.selected_skill.name == "Invention")
 			window["skill_level_input"].update(f"{RSL_f.selected_skill.target_level:,}")
 			window["skill_remainder"].update(f"Remainder: {max(0, int(RSL_f.selected_skill.target_xp) - int(RSL_f.selected_skill.current_xp)):,}")
-		elif "overall_xp_input" == event:
+		elif "overall_xp_input" == event and values["overall_xp_input"] != RSL_f.old["overall_xp_input"]:
+			RSL_f.old["overall_xp_input"] = values["overall_xp_input"]
 			RSL_f.skill_dict["Overall"].target_xp = func.validate_numeric(values['overall_xp_input'], 5600000000)
 			window["overall_xp_input"].update(f"{RSL_f.skill_dict['Overall'].target_xp:,}")
 			window["overall_remainder"].update(f"Remainder: {max(0, int(RSL_f.skill_dict['Overall'].target_xp) - int(RSL_f.skill_dict['Overall'].current_xp)):,}")

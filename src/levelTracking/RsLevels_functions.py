@@ -15,7 +15,7 @@ import RsLevels_skill as RSL_skills
 # load saved skills stats from file (data/skills.json)
 def load_skills():
 	try:
-		data = func.load_json("data/skills.json")
+		data = func.load_json("data/skills.json", False)
 		for skill in data:
 			if skill != "player_name":
 				data[skill] = json_to_skill(data[skill])
@@ -87,3 +87,10 @@ skill_dict = load_skills()
 
 # currently selected skill object
 selected_skill = skill_dict["Attack"]
+
+# dictionary of previous input box states
+old = {
+	"skill_level_input": 0,
+	"skill_xp_input": 0,
+	"overall_xp_input": 0
+}

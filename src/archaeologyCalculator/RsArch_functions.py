@@ -20,7 +20,7 @@ level_xp = [0, 83, 174, 276, 388, 512, 650, 801, 969, 1154, 1358, 1584, 1833, 21
 active_collections = []
 
 # Dictionary for archaeology data
-arch_dict = func.load_json("data/arch_data.json")
+arch_dict = func.load_json("data/arch_data.json", False)
 
 # attempts to read a value from a dictionary, returning NaN on failure and sending an error message in the terminal
 def read_value(dict, dict_path):

@@ -4,19 +4,23 @@
 #####################################################
 
 import RSGE_functions as RSGE_f
+import generalFunctions as func
 
 class RSGE_item:
 	# default constructor
 	def __init__(self, itemId, orig=None):
 		if orig == None:
 			url = 'https://secure.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item={}'.format(itemId)
-			item_dict = RSGE_f.jsonDict(url, True)
+			item_dict = func.load_json(url, True)
 			self.id = itemId
 			self.name = item_dict['item']['name']
 			self.quantity = 1
 			self.description = item_dict['item']['description']
 			self.price = RSGE_f.gazbot_dict[str(self.id)]["price"]
-			self.highAlch = RSGE_f.gazbot_dict[str(self.id)]["highalch"] # TODO: handle no highalch attribute
+			if "highalch" in RSGE_f.gazbot_dict[str(self.id)]:
+				self.highAlch = RSGE_f.gazbot_dict[str(self.id)]["highalch"]
+			else:
+				self.highAlch = "N/A"
 			self.day30 = item_dict['item']['day30']['change']
 			self.day90 = item_dict['item']['day90']['change']
 			self.day180 = item_dict['item']['day180']['change']
