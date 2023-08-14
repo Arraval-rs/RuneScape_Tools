@@ -49,11 +49,12 @@ while(1):
 	event, values = window.read(timeout = 120)
 	if event == sg.WIN_CLOSED:
 		break
-
 	if event == "launch_levelTracker":
 		RSLevel.launchLevelTracker()
 	elif event == "launch_archCalc":
 		RSArch.launchArchCalc()
 	elif event == "launch_priceChecker":
 		RSPrice.launchPriceChecker()
+	# if event != "__TIMEOUT__":
+	# 	print(f"Event: {event}\nValues: {values}")
 window.close()
