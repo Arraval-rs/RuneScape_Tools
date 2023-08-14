@@ -9,8 +9,11 @@ import json
 import PySimpleGUI as sg
 import RsArch_functions as RsA_f
 
-def create_collection_frame(faction):
-	frame = [[]]
-	return frame
+class Collections:
+	def __init__(self):
+		self.layout = [[]]
+		return
 
-collections_tab = [[]]
+	def create_collection_frame(self, faction):
+		frame = [[]]
+		return frame

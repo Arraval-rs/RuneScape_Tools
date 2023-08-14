@@ -9,13 +9,18 @@ import PySimpleGUI as sg
 
 # RsArch files
 import RsArch_functions as RsA_f
-from RsArch_collections import collections_tab
-from RsArch_materials import materials_tab
-from RsArch_artefacts import artefacts_tab
-from RsArch_toBuy import toBuy_tab
-from RsArch_toBuild import toBuild_tab
+import RsArch_collections as RSA_coll
+import RsArch_materials as RSA_mats
+import RsArch_artefacts as RSA_art
+import RsArch_toBuy as RSA_buy
+import RsArch_toBuild as RSA_build
 
 def launchArchCalc():
+	collections = RSA_coll.Collections()
+	materials = RSA_mats.Materials()
+	artefacts = RSA_art.Artefacts()
+	toBuy = RSA_buy.ToBuy()
+	toBuild = RSA_build.ToBuild()
 	root_tabs = [[
 					sg.Column([
 						[
@@ -56,11 +61,11 @@ def launchArchCalc():
 					sg.Column([[
 						sg.TabGroup(
 						[[
-							sg.Tab("Collections", collections_tab),
-							sg.Tab("Materials", materials_tab),
-							sg.Tab("Artefacts", artefacts_tab),
-							sg.Tab("To Buy", toBuy_tab),
-							sg.Tab("To Build", toBuild_tab)
+							sg.Tab("Collections", collections.layout),
+							sg.Tab("Materials", materials.layout),
+							sg.Tab("Artefacts", artefacts.layout),
+							sg.Tab("To Buy", toBuy.layout),
+							sg.Tab("To Build", toBuild.layout)
 						]])
 					]])
 				]]
