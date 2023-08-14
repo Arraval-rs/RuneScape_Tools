@@ -1,5 +1,11 @@
+#####################################################
+# RsLevels_skillWindow.py							#
+# Skill summary elements and functions				#
+#####################################################
+
 import PySimpleGUI as sg
 
+import generalFunctions as func
 import RsLevels_functions as RSL_f
 
 class SkillWindow:
@@ -19,22 +25,25 @@ class SkillWindow:
 		elif "Icon" in event and "Overall" not in event:
 			RSL_f.selected_skill = RSL_f.skill_dict[event.split()[0]]
 			self.update_skill_stats(RSL_f.selected_skill.name, window)
-		elif "skill_level_input" == event:
-			level = RSL_f.validate_numeric(values['skill_level_input'], 120)
+		elif "skill_level_input" == event and values["skill_level_input"] != RSL_f.old["skill_level_input"]:
+			RSL_f.old["skill_level_input"] = values["skill_level_input"]
+			level = func.validate_numeric(values['skill_level_input'], 120)
 			window["skill_level_input"].update(f"{level:,}")
 			RSL_f.selected_skill.target_level = level
-			RSL_f.selected_skill.target_xp = RSL_f.find_experience(level, RSL_f.selected_skill.name == "Invention")
+			RSL_f.selected_skill.target_xp = func.find_experience(level, RSL_f.selected_skill.name == "Invention")
 			window["skill_xp_input"].update(f"{RSL_f.selected_skill.target_xp:,}")
 			window["skill_remainder"].update(f"Remainder: {max(0, int(RSL_f.selected_skill.target_xp) - int(RSL_f.selected_skill.current_xp)):,}")
-		elif "skill_xp_input" == event:
-			experience = RSL_f.validate_numeric(values['skill_xp_input'], 200000000)
+		elif "skill_xp_input" == event and values["skill_xp_input"] != RSL_f.old["skill_xp_input"]:
+			RSL_f.old["skill_xp_input"] = values["skill_xp_input"]
+			experience = func.validate_numeric(values['skill_xp_input'], 200000000)
 			window["skill_xp_input"].update(f"{experience:,}")
 			RSL_f.selected_skill.target_xp = experience
-			RSL_f.selected_skill.target_level = RSL_f.find_level(experience, RSL_f.selected_skill.name == "Invention")
+			RSL_f.selected_skill.target_level = func.find_level(experience, RSL_f.selected_skill.name == "Invention")
 			window["skill_level_input"].update(f"{RSL_f.selected_skill.target_level:,}")
 			window["skill_remainder"].update(f"Remainder: {max(0, int(RSL_f.selected_skill.target_xp) - int(RSL_f.selected_skill.current_xp)):,}")
-		elif "overall_xp_input" == event:
-			RSL_f.skill_dict["Overall"].target_xp = RSL_f.validate_numeric(values['overall_xp_input'], 5600000000)
+		elif "overall_xp_input" == event and values["overall_xp_input"] != RSL_f.old["overall_xp_input"]:
+			RSL_f.old["overall_xp_input"] = values["overall_xp_input"]
+			RSL_f.skill_dict["Overall"].target_xp = func.validate_numeric(values['overall_xp_input'], 5600000000)
 			window["overall_xp_input"].update(f"{RSL_f.skill_dict['Overall'].target_xp:,}")
 			window["overall_remainder"].update(f"Remainder: {max(0, int(RSL_f.skill_dict['Overall'].target_xp) - int(RSL_f.skill_dict['Overall'].current_xp)):,}")
 		return
@@ -66,7 +75,7 @@ class SkillWindow:
 		return sg.Frame(layout = skill_layout, title = "Skills")
 
 	def create_skill_icon(self, skill_name):
-		return sg.Image(data = RSL_f.generate_image(f"images/{skill_name}.png", (26, 26)), tooltip = skill_name, enable_events = True, key = f"{skill_name} Icon")
+		return sg.Image(data = func.generate_image(f"images/{skill_name}.png", (26, 26), True), tooltip = skill_name, enable_events = True, key = f"{skill_name} Icon")
 
 	def create_stat_frame(self):
 		stat_layout =	[

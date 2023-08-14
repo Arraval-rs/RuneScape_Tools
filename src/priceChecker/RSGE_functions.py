@@ -1,6 +1,7 @@
 #####################################################
 # RSGE_functions.py                                 #
-# Code for the update functions of the application  #
+# Various functions and variables used by the		#
+# Price Checker	tool								#
 #####################################################
 import os
 import io
@@ -8,6 +9,8 @@ import json
 import urllib.request
 from datetime import datetime
 from datetime import timedelta
+
+import generalFunctions as func
 
 
 # Poll the RS GE API for the last updated date
@@ -26,15 +29,6 @@ def imageUrl(url):
 	content = urllib.request.urlopen(request)
 	return content.read()
 
-# Generates a dictionary from json read from the given source
-# Compatible with websites containing json data with the isUrl flag
-def jsonDict(source, isUrl):
-	if(isUrl):
-		request = urllib.request.Request(source, headers={"User-Agent" : "Magic Browser"})
-		content = urllib.request.urlopen(request)
-		return json.loads(content.read())
-	return json.loads(open(source, 'rt').read())
-
 # Generates an abbreviated price for input price and quantity i.e. 10k for 10000
 def generate_price(price, quantity):
 	try:
@@ -45,7 +39,7 @@ def generate_price(price, quantity):
 	return price*int(quantity)
 
 # Dictionary of all items and price info updated daily
-gazbot_dict = jsonDict("https://chisel.weirdgloop.org/gazproj/gazbot/rs_dump.json", True)
+gazbot_dict = func.load_json("https://chisel.weirdgloop.org/gazproj/gazbot/rs_dump.json", True)
 
 # List of tracked items
 tracked_items = []

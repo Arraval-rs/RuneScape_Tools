@@ -1,6 +1,6 @@
 #####################################################
 # RSGE_main.py                                      #
-# Event loop of the application                     #
+# Event loop of the Price Checker tool              #
 #####################################################
 
 import PySimpleGUI as sg

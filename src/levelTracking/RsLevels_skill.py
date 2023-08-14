@@ -1,3 +1,8 @@
+#####################################################
+# RsLevels_skill.py                                 #
+# Skill objects used to hold various data           #
+#####################################################
+
 class Skill:
 	def __init__(self, name, rank, level, xp, target_level, target_xp):
 		self.name = name
