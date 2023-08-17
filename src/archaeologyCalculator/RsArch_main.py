@@ -3,9 +3,7 @@
 # Event loop of the Archaeology Calculator tool		#
 #####################################################
 
-import os
-import io
-import json
+import os, io, json, psutil
 import PySimpleGUI as sg
 
 # RsArch files
@@ -15,6 +13,7 @@ import RsArch_materialTab as RSA_mats
 import RsArch_artefactTab as RSA_art
 import RsArch_toBuy as RSA_buy
 import RsArch_toBuild as RSA_build
+import generalFunctions as func
 
 class ArchaeologyCalculator:
 	def __init__(self):
@@ -81,29 +80,30 @@ class ArchaeologyCalculator:
 			event, values = window.read(timeout = 120)
 			if event == sg.WIN_CLOSED:
 				break
-			try:
-				if event == "currentXpInput":
-					if int(window["currentXpInput"].get()) > 200000000:
-						window["currentXpInput"].update("200000000")
-					window["currentLevelInput"].update(RsA_f.find_level(int(window["currentXpInput"].get())))
-				elif event == "targetXpInput":
-					if int(window["targetXpInput"].get()) > 200000000:
-						window["targetXpInput"].update("200000000")
-					window["targetLevelInput"].update(RsA_f.find_level(int(window["targetXpInput"].get())))
-				elif event == "currentLevelInput":
-					if int(window["currentLevelInput"].get()) > 120:
-						window["currentLevelInput"].update("120")
-					window["currentXpInput"].update(RsA_f.find_experience(int(window["currentLevelInput"].get())))
-				elif event == "targetLevelInput":
-					if int(window["targetLevelInput"].get()) > 120:
-						window["targetLevelInput"].update("120")
-					window["targetXpInput"].update(RsA_f.find_experience(int(window["targetLevelInput"].get())))
-			except:
-				window["currentXpInput"].update("0")
-				window["currentLevelInput"].update("0")
-				window["targetXpInput"].update("0")
-				window["targetLevelInput"].update("0")
+			if event == "currentXpInput":
+				window["currentXpInput"].update(f"{func.validate_numeric(window['currentXpInput'].get(), 200000000):,}")
+				current_level = func.find_level(func.validate_numeric(window['currentXpInput'].get(), 200000000), False)
+				window["currentLevelInput"].update(f"{current_level:,}")
+			elif event == "currentLevelInput":
+				window["currentLevelInput"].update(f"{func.validate_numeric(window['currentLevelInput'].get(), 120):,}")
+				current_xp = func.find_experience(int(window['currentLevelInput'].get()), False)
+				window["currentXpInput"].update(f"{current_xp:,}")
+			elif event == "targetXpInput":
+				window["targetXpInput"].update(f"{func.validate_numeric(window['targetXpInput'].get(), 200000000):,}")
+				current_level = func.find_level(func.validate_numeric(window['targetXpInput'].get(), 200000000), False)
+				window["targetLevelInput"].update(f"{current_level:,}")
+			elif event == "targetLevelInput":
+				window["targetLevelInput"].update(f"{func.validate_numeric(window['targetLevelInput'].get(), 120):,}")
+				current_xp = func.find_experience(int(window['targetLevelInput'].get()), False)
+				window["targetXpInput"].update(f"{current_xp:,}")
+			elif event == "Save to File":
+				save_dict = RsA_f.save_arch_data()
+			elif event != "__TIMEOUT__":
+				self.materials.material_events(window, event)
+				self.artefacts.artefact_events(window, event)
 			if event != '__TIMEOUT__':
 				print(f"Event: {event}")
 				#print(f"Values: {values}")
+			else: #Performance Check
+				print(f"\n\t\tRAM: {psutil.virtual_memory()[2]}% ({psutil.virtual_memory()[3]/1000000000} GB)\n")
 		window.close()

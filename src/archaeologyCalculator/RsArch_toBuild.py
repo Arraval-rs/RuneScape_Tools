@@ -3,9 +3,7 @@
 # Code for the implementation of the to build tab  	#
 #####################################################
 
-import os
-import io
-import json
+import os, io, json, math
 import PySimpleGUI as sg
 import RsArch_functions as RsA_f
 import generalFunctions as func
@@ -36,9 +34,9 @@ class ToBuildTab:
 		frame = [[]]
 		for i in range(0, 5):
 			column = []
-			for j in range(0, int(len(RsA_f.read_value(RsA_f.arch_dict,["Artefacts", faction]))/5+0.5)):
-				if i+5*j < len(RsA_f.read_value(RsA_f.arch_dict,["Artefacts", faction])):
-					artefact_name = RsA_f.read_value(RsA_f.arch_dict,["Artefacts",faction,i+5*j,"Name"])
+			for j in range(0, math.ceil(len(RsA_f.artefacts)/5)):
+				if i+5*j < len(RsA_f.artefacts[faction]):
+					artefact_name = list(RsA_f.artefacts[faction])[i+5*j].name
 					column.append([sg.Image(data = func.generate_image(f"images/artefacts/{artefact_name} (damaged).png", (31, 31), True), tooltip = artefact_name)])
 					column.append([sg.Input(default_text = "0", justification = "right", size = (3, 1), readonly = True, key = f"{faction}ToBuild_{i+5*j}")])
 				else:

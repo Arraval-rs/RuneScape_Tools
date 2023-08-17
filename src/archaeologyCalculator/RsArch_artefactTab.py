@@ -3,9 +3,7 @@
 # Code for the implementation of the artefacts tab  #
 #####################################################
 
-import os
-import io
-import json
+import os, io, json, math
 import PySimpleGUI as sg
 import RsArch_functions as RsA_f
 import generalFunctions as func
@@ -36,11 +34,11 @@ class ArtefactTab:
 		frame = [[]]
 		for i in range(0, 5):
 			column = []
-			for j in range(0, int(len(RsA_f.read_value(RsA_f.arch_dict,["Artefacts", faction]))/5+0.5)):
-				if i+5*j < len(RsA_f.read_value(RsA_f.arch_dict,["Artefacts", faction])):
-					artefact_name = RsA_f.read_value(RsA_f.arch_dict,['Artefacts',faction,i+5*j,'Name'])
+			for j in range(0, math.ceil(len(RsA_f.artefacts)/5)):
+				if i+5*j < len(RsA_f.artefacts[faction]):
+					artefact_name = list(RsA_f.artefacts[faction])[i+5*j].name
 					column.append([sg.Image(data = func.generate_image(f"images/artefacts/{artefact_name} (damaged).png", (31, 31), True), tooltip = artefact_name)])
-					column.append([sg.Input(default_text = RsA_f.read_value(RsA_f.arch_dict, ["Artefacts", faction, i+5*j, "Stored"]), enable_events = True, justification = "right", size = (3, 1), key = f"{faction}Artefacts_{i+5*j}")])
+					column.append([sg.Input(default_text = RsA_f.artefacts[faction][i+5*j].stored, enable_events = True, justification = "right", size = (3, 1), key = f"{faction}Artefacts_{i+5*j}")])
 				else:
 					column.append([sg.Sizer(31, 66)])
 			frame[0].append(sg.Column(column, element_justification = 'center'))
