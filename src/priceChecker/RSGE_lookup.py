@@ -6,6 +6,7 @@
 import PySimpleGUI as sg
 import RSGE_functions as RSGE_f
 import RSGE_item
+import generalFunctions as func
 
 class LookupWindow:
 
@@ -26,11 +27,11 @@ class LookupWindow:
 				self.lookup_ids = []
 				matches = 0
 				match_string = window["lookup_input"].get()
-				for item in RSGE_f.gazbot_dict:
+				for item in func.gazbot_dict:
 					if "%" not in item:
-						if match_string in RSGE_f.gazbot_dict[item]["name"]:
-							self.lookup_items.append(RSGE_f.gazbot_dict[item]["name"])
-							self.lookup_ids.append(RSGE_f.gazbot_dict[item]["id"])
+						if match_string in func.gazbot_dict[item]["name"]:
+							self.lookup_items.append(func.gazbot_dict[item]["name"])
+							self.lookup_ids.append(func.gazbot_dict[item]["id"])
 				if len(self.lookup_items) < 1:
 					window["lookup_list"].update(["No items found"])
 				else:
