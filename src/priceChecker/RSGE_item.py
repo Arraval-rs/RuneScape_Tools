@@ -16,9 +16,9 @@ class RSGE_item:
 			self.name = item_dict['item']['name']
 			self.quantity = 1
 			self.description = item_dict['item']['description']
-			self.price = RSGE_f.gazbot_dict[str(self.id)]["price"]
-			if "highalch" in RSGE_f.gazbot_dict[str(self.id)]:
-				self.highAlch = RSGE_f.gazbot_dict[str(self.id)]["highalch"]
+			self.price = func.gazbot_dict[str(self.id)]["price"]
+			if "highalch" in func.gazbot_dict[str(self.id)]:
+				self.highAlch = func.gazbot_dict[str(self.id)]["highalch"]
 			else:
 				self.highAlch = "N/A"
 			self.day30 = item_dict['item']['day30']['change']

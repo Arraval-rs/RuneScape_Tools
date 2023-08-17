@@ -38,9 +38,6 @@ def generate_price(price, quantity):
 		return price*quantity
 	return price*int(quantity)
 
-# Dictionary of all items and price info updated daily
-gazbot_dict = func.load_json("https://chisel.weirdgloop.org/gazproj/gazbot/rs_dump.json", True)
-
 # List of tracked items
 tracked_items = []
 

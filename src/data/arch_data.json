@@ -1,964 +1,2235 @@
 {
   "Materials": {
-    "Agnostic": [
-      {
-        "name": "Third Age Iron",
-        "count": 0
+    "Agnostic": {
+      "Third Age Iron": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Samite Silk",
-        "count": 0
+      "Samite Silk": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "White Oak",
-        "count": 0
+      "White Oak": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Goldrune",
-        "count": 0
+      "Goldrune": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Orthenglass",
-        "count": 1
+      "Orthenglass": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Vellum",
-        "count": 0
+      "Vellum": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Leather Scraps",
-        "count": 0
+      "Leather Scraps": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Soapstone",
-        "count": 0
+      "Soapstone": {
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Fossilised Bone",
-        "count": 0
+      "Fossilised Bone": {
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Armadylean": [
-      {
-        "name": "Stormguard Steel",
-        "count": 0
+    },
+    "Armadylean": {
+      "Stormguard Steel":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Wings of War",
-        "count": 0
+      "Wings of War":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Armadylean Yellow",
-        "count": 0
+      "Armadylean Yellow":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Aetherium Alloy",
-        "count": 0
+      "Aetherium Alloy":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Quintessence",
-        "count": 0
+      "Quintessence":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Bandosian": [
-      {
-        "name": "Malachite Green",
-        "count": 0
+    },
+    "Bandosian": {
+      "Malachite Green":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Mark of the Kyzaj",
-        "count": 0
+      "Mark of the Kyzaj":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Vulcanised Rubber",
-        "count": 0
+      "Vulcanised Rubber":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Warforged Bronze",
-        "count": 0
+      "Warforged Bronze":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Yu'biusk Clay",
-        "count": 0
+      "Yu'biusk Clay":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Dragonkin": [
-      {
-        "name": "Compass Rose",
-        "count": 0
+    },
+    "Dragonkin": {
+      "Compass Rose":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Felt",
-        "count": 0
+      "Felt":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Dragon Metal",
-        "count": 0
+      "Dragon Metal":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Carbon Black",
-        "count": 0
+      "Carbon Black":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Orgone",
-        "count": 0
+      "Orgone":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Saradominist": [
-      {
-        "name": "Keramos",
-        "count": 0
+    },
+    "Saradominist": {
+      "Keramos":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "White Marble",
-        "count": 0
+      "White Marble":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Cobalt Blue",
-        "count": 0
+      "Cobalt Blue":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Everlight Silvthril",
-        "count": 0
+      "Everlight Silvthril":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Star of Saradomin",
-        "count": 0
+      "Star of Saradomin":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Zamorakian": [
-      {
-        "name": "Cadmium Red",
-        "count": 0
+    },
+    "Zamorakian": {
+      "Cadmium Red":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Chaotic Brimstone",
-        "count": 0
+      "Chaotic Brimstone":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Demonhide",
-        "count": 0
+      "Demonhide":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Eye of Dagon",
-        "count": 0
+      "Eye of Dagon":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Hellfire Metal",
-        "count": 0
+      "Hellfire Metal":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ],
-    "Zarosian": [
-      {
-        "name": "Zarosian Insignia",
-        "count": 0
+    },
+    "Zarosian": {
+      "Zarosian Insignia":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Imperial Steel",
-        "count": 0
+      "Imperial Steel":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Ancient Vis",
-        "count": 0
+      "Ancient Vis":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Tyrian Purple",
-        "count": 0
+      "Tyrian Purple":{
+        "Stored": 0,
+        "Cost": 0
       },
-      {
-        "name": "Blood of Orcus",
-        "count": 0
+      "Blood of Orcus":{
+        "Stored": 0,
+        "Cost": 0
       }
-    ]
+    },
+    "Miscellaneous": {
+      "Dragonstone":{
+        "Stored": 0,
+        "Cost": 0
+      },
+      "Death Rune":{
+        "Stored": 0,
+        "Cost": 0
+      },
+      "Molten Glass":{
+        "Stored": 0,
+        "Cost": 0
+      }
+    }
   },
   "Artefacts": {
-    "Zarosian": [
-      {
-        "name": "Venator Dagger",
-        "count": 0
+    "Zarosian": {
+      "Venator Dagger":{
+"Level": 5,
+        "Stored": 0,
+        "Experience": 305.1,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 16
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 12
+          }
+        ]
       },
-      {
-        "name": "Venator Light Crossbow",
-        "count": 0
+      "Venator Light Crossbow":{
+"Level": 5,
+        "Stored": 0,
+        "Experience": 305.1,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 12
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 16
+          }
+        ]
       },
-      {
-        "name": "Legionary Gladius",
-        "count": 0
+      "Legionary Gladius":{
+"Level": 12,
+        "Stored": 0,
+        "Experience": 430.8,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 10
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 6
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 12
+          }
+        ]
       },
-      {
-        "name": "Legionary Square Shield",
-        "count": 0
+      "Legionary Square Shield":{
+"Level": 12,
+        "Stored": 0,
+        "Experience": 430.8,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 8
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 8
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 12
+          }
+        ]
       },
-      {
-        "name": "Primis Elementis Standard",
-        "count": 0
+      "Primis Elementis Standard":{
+"Level": 12,
+        "Stored": 0,
+        "Experience": 430.8,
+        "Materials": [
+          {
+            "Name": "Samite Silk",
+            "Count": 16
+          },
+          {
+            "Name": "Third Age Iron",
+            "Count": 12
+          }
+        ]
       },
-      {
-        "name": "Zaros Effigy",
-        "count": 0
+      "Zaros Effigy":{
+"Level": 17,
+        "Stored": 0,
+        "Experience": 520.5,
+        "Materials": [
+          {
+            "Name": "Samite Silk",
+            "Count": 8
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 12
+          },
+          {
+            "Name": "White Oak",
+            "Count": 10
+          }
+        ]
       },
-      {
-        "name": "Zarosian Training Dummy",
-        "count": 0
+      "Zarosian Training Dummy":{
+"Level": 17,
+        "Stored": 0,
+        "Experience": 520.5,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 16
+          },
+          {
+            "Name": "White Oak",
+            "Count": 14
+          }
+        ]
       },
-      {
-        "name": "Legatus Maximus Figurine",
-        "count": 0
+      "Legatus Maximus Figurine":{
+"Level": 25,
+        "Stored": 0,
+        "Experience": 664.1,
+        "Materials": [
+          {
+            "Name": "Goldrune",
+            "Count": 8
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 14
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 10
+          }
+        ]
       },
-      {
-        "name": "'Solem In Umbra' Painting",
-        "count": 0
+      "'Solem In Umbra' Painting":{
+"Level": 25,
+        "Stored": 0,
+        "Experience": 664.1,
+        "Materials": [
+          {
+            "Name": "Samite Silk",
+            "Count": 8
+          },
+          {
+            "Name": "Tyrian Purple",
+            "Count": 14
+          },
+          {
+            "Name": "White Oak",
+            "Count": 10
+          }
+        ]
       },
-      {
-        "name": "Ancient Timepiece",
-        "count": 0
+      "Ancient Timepiece":{
+"Level": 47,
+        "Stored": 0,
+        "Experience": 1423.3,
+        "Materials": [
+          {
+            "Name": "Goldrune",
+            "Count": 2
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 16
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 18
+          }
+        ]
       },
-      {
-        "name": "Legatus Pendant",
-        "count": 0
+      "Legatus Pendant":{
+"Level": 47,
+        "Stored": 0,
+        "Experience": 1423.3,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 16
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 18
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 12
+          },
+          {
+            "Name": "Dragonstone",
+            "Count": 1
+          }
+        ]
       },
-      {
-        "name": "Pontifex Signet Ring",
-        "count": 0
+      "Pontifex Signet Ring":{
+"Level": 58,
+        "Stored": 0,
+        "Experience": 2193.3,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 16
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 18
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 22
+          },
+          {
+            "Name": "Dragonstone",
+            "Count": 1
+          }
+        ]
       },
-      {
-        "name": "'Incite Fear' Spell Scroll",
-        "count": 0
+      "'Incite Fear' Spell Scroll":{
+"Level": 58,
+        "Stored": 0,
+        "Experience": 2193.3,
+        "Materials": [
+          {
+            "Name": "Vellum",
+            "Count": 20
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 18
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 18
+          }
+        ]
       },
-      {
-        "name": "Ceremonial Mace",
-        "count": 0
+      "Ceremonial Mace":{
+"Level": 74,
+        "Stored": 0,
+        "Experience": 5600,
+        "Materials": [
+          {
+            "Name": "Imperial Steel",
+            "Count": 20
+          },
+          {
+            "Name": "Third Age Iron",
+            "Count": 20
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 28
+          }
+        ]
       },
-      {
-        "name": "'Consensus Ad Idem' Painting",
-        "count": 0
+      "'Consensus Ad Idem' Painting":{
+"Level": 74,
+        "Stored": 0,
+        "Experience": 5600,
+        "Materials": [
+          {
+            "Name": "White Oak",
+            "Count": 10
+          },
+          {
+            "Name": "Samite Silk",
+            "Count": 10
+          },
+          {
+            "Name": "Tyrian Purple",
+            "Count": 50
+          }
+        ]
       },
-      {
-        "name": "Pontifex Maximus Figurine",
-        "count": 0
+      "Pontifex Maximus Figurine":{
+"Level": 74,
+        "Stored": 0,
+        "Experience": 5600,
+        "Materials": [
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 24
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 16
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 28
+          },
+          {
+            "Name": "Dragonstone",
+            "Count": 1
+          }
+        ]
       },
-      {
-        "name": "Pontifex Censer",
-        "count": 0
+      "Pontifex Censer":{
+"Level": 81,
+        "Stored": 0,
+        "Experience": 7388.9,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 20
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 20
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 32
+          },
+          {
+            "Name": "Dragonstone",
+            "Count": 1
+          }
+        ]
       },
-      {
-        "name": "Pontifex Crozier",
-        "count": 0
+      "Pontifex Crozier":{
+"Level": 81,
+        "Stored": 0,
+        "Experience": 7388.9,
+        "Materials": [
+          {
+            "Name": "Imperial Steel",
+            "Count": 20
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 20
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 32
+          }
+        ]
       },
-      {
-        "name": "Pontifex Mitre",
-        "count": 0
+      "Pontifex Mitre":{
+"Level": 81,
+        "Stored": 0,
+        "Experience": 7388.9,
+        "Materials": [
+          {
+            "Name": "Samite Silk",
+            "Count": 32
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 20
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 20
+          }
+        ]
       },
-      {
-        "name": "Necromantic Focus",
-        "count": 0
+      "Necromantic Focus":{
+"Level": 86,
+        "Stored": 0,
+        "Experience": 9333.3,
+        "Materials": [
+          {
+            "Name": "Imperial Steel",
+            "Count": 20
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 26
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 30
+          }
+        ]
       },
-      {
-        "name": "'Exsanguinate' Spell Scroll",
-        "count": 0
+      "'Exsanguinate' Spell Scroll":{
+"Level": 86,
+        "Stored": 0,
+        "Experience": 9333.3,
+        "Materials": [
+          {
+            "Name": "Vellum",
+            "Count": 40
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 36
+          }
+        ]
       },
-      {
-        "name": "Zarosian Ewer",
-        "count": 0
+      "Zarosian Ewer":{
+"Level": 93,
+        "Stored": 0,
+        "Experience": 12500,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 52
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 30
+          }
+        ]
       },
-      {
-        "name": "Zarosian Stein",
-        "count": 0
+      "Zarosian Stein":{
+"Level": 93,
+        "Stored": 0,
+        "Experience": 12500,
+        "Materials": [
+          {
+            "Name": "Third Age Iron",
+            "Count": 16
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 36
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 30
+          }
+        ]
       },
-      {
-        "name": "'Smoke Cloud' Spell Scroll",
-        "count": 0
+      "'Smoke Cloud' Spell Scroll":{
+"Level": 100,
+        "Stored": 0,
+        "Experience": 18666.7,
+        "Materials": [
+          {
+            "Name": "Vellum",
+            "Count": 40
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 20
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 32
+          }
+        ]
       },
-      {
-        "name": "Vigorem Vial",
-        "count": 0
+      "Vigorem Vial":{
+"Level": 100,
+        "Stored": 0,
+        "Experience": 18666.7,
+        "Materials": [
+          {
+            "Name": "Imperial Steel",
+            "Count": 54
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 38
+          },
+          {
+            "Name": "Molten Glass",
+            "Count": 1
+          }
+        ]
       },
-      {
-        "name": "Ancient Magic Tablet",
-        "count": 0
+      "Ancient Magic Tablet":{
+"Level": 107,
+        "Stored": 0,
+        "Experience": 27000,
+        "Materials": [
+          {
+            "Name": "Ancient Vis",
+            "Count": 40
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 64
+          }
+        ]
       },
-      {
-        "name": "Portable Phylactery",
-        "count": 0
+      "Portable Phylactery":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Animate Dead' Spell Scroll",
-        "count": 0
+      "'Animate Dead' Spell Scroll":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Praetorian Hood",
-        "count": 0
+      "Praetorian Hood":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Praetorian Robes",
-        "count": 0
+      "Praetorian Robes":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Praetorian Staff",
-        "count": 0
+      "Praetorian Staff":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ancient Globe",
-        "count": 0
+      "Ancient Globe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Battle Plans",
-        "count": 0
+      "Battle Plans":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Prima Legio' Painting",
-        "count": 0
+      "'Prima Legio' Painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ],
-    "Zamorakian": [
-      {
-        "name": "Hookah Pipe",
-        "count": 0
+    },
+    "Zamorakian": {
+      "Hookah Pipe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Opulent Wine Goblet",
-        "count": 0
+      "Opulent Wine Goblet":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Crest of Dagon",
-        "count": 0
+      "Crest of Dagon":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Disorder' Painting",
-        "count": 0
+      "'Disorder' Painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Lesser Demon Mask",
-        "count": 0
+      "Lesser Demon Mask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Imp Mask",
-        "count": 0
+      "Imp Mask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Greater Demon Mask",
-        "count": 0
+      "Greater Demon Mask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Order of Dis Robes",
-        "count": 0
+      "Order of Dis Robes":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ritual Dagger",
-        "count": 0
+      "Ritual Dagger":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Branding Iron",
-        "count": 0
+      "Branding Iron":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Manacles",
-        "count": 0
+      "Manacles":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'The Lake Of Fire' Painting",
-        "count": 0
+      "'The Lake Of Fire' Painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Lust' Metal Sculpture",
-        "count": 0
+      "'Lust' Metal Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Chaos Star",
-        "count": 0
+      "Chaos Star":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Spiked Dog Collar",
-        "count": 0
+      "Spiked Dog Collar":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Larupia Trophy",
-        "count": 0
+      "Larupia Trophy":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Lion Trophy",
-        "count": 0
+      "Lion Trophy":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "She-wolf Trophy",
-        "count": 0
+      "She-wolf Trophy":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Pandemonium' Tapestry",
-        "count": 0
+      "'Pandemonium' Tapestry":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Torment' Metal Sculpture",
-        "count": 0
+      "'Torment' Metal Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hellfire Haladie",
-        "count": 0
+      "Hellfire Haladie":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hellfire Katar",
-        "count": 0
+      "Hellfire Katar":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hellfire Zaghnal",
-        "count": 0
+      "Hellfire Zaghnal":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Possession' Metal Sculpture",
-        "count": 0
+      "'Possession' Metal Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Trishula",
-        "count": 0
+      "Trishula":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Tsutsaroth Piercing",
-        "count": 0
+      "Tsutsaroth Piercing":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Chaos Elemental Trophy",
-        "count": 0
+      "Chaos Elemental Trophy":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Virius Trophy",
-        "count": 0
+      "Virius Trophy":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Tsutsaroth Helm",
-        "count": 0
+      "Tsutsaroth Helm":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Tsutsaroth Pauldron",
-        "count": 0
+      "Tsutsaroth Pauldron":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Tsutsaroth Urumi",
-        "count": 0
+      "Tsutsaroth Urumi":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ],
-    "Saradominist": [
-      {
-        "name": "'Frying Pan'",
-        "count": 0
+    },
+    "Saradominist": {
+      "'Frying Pan'":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hallowed Lantern",
-        "count": 0
+      "Hallowed Lantern":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ceremonial Unicorn Ornament",
-        "count": 0
+      "Ceremonial Unicorn Ornament":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ceremonial Unicorn Saddle",
-        "count": 0
+      "Ceremonial Unicorn Saddle":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Everlight Harp",
-        "count": 0
+      "Everlight Harp":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Everlight Trumpet",
-        "count": 0
+      "Everlight Trumpet":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Everlight Violin",
-        "count": 0
+      "Everlight Violin":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Folded-Arm Figurine (Female)",
-        "count": 0
+      "Folded-Arm Figurine(Female)":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Folded-Arm Figurine (Male)",
-        "count": 0
+      "Folded-Arm Figurine(Male)":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dominion Discus",
-        "count": 0
+      "Dominion Discus":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dominion Javelin",
-        "count": 0
+      "Dominion Javelin":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dominion Pelte Shield",
-        "count": 0
+      "Dominion Pelte Shield":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Bronze Dominion Medal",
-        "count": 0
+      "Bronze Dominion Medal":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Silver Dominion Medal",
-        "count": 0
+      "Silver Dominion Medal":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dominion Torch",
-        "count": 0
+      "Dominion Torch":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Decorative Vase",
-        "count": 0
+      "Decorative Vase":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Patera Bowl",
-        "count": 0
+      "Patera Bowl":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kantharos Cup",
-        "count": 0
+      "Kantharos Cup":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dominarian device",
-        "count": 0
+      "Dominarian device":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Fishing trident",
-        "count": 0
+      "Fishing trident":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Amphora",
-        "count": 0
+      "Amphora":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Rod of Asclepius",
-        "count": 0
+      "Rod of Asclepius":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kopis Dagger",
-        "count": 0
+      "Kopis Dagger":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Xiphos Short Sword",
-        "count": 0
+      "Xiphos Short Sword":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'The Pride of Padosan' painting",
-        "count": 0
+      "'The Pride of Padosan' painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Hallowed Be the Everlight' painting",
-        "count": 0
+      "'Hallowed Be the Everlight' painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'The Lord of Light' painting",
-        "count": 0
+      "'The Lord of Light' painting":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'The Enlightened Soul' scroll",
-        "count": 0
+      "'The Enlightened Soul' scroll":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'The Eudoxian Elements' tablet",
-        "count": 0
+      "'The Eudoxian Elements' tablet":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kontos Lance",
-        "count": 0
+      "Kontos Lance":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Doru Spear",
-        "count": 0
+      "Doru Spear":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ],
-    "Armadylean": [
-      {
-        "name": "Ikovian Gerege",
-        "count": 1
+    },
+    "Armadylean": {
+      "Ikovian Gerege":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Toy Glider",
-        "count": 0
+      "Toy Glider":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Toy War Golem",
-        "count": 0
+      "Toy War Golem":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Avian Song-egg Player",
-        "count": 0
+      "Avian Song-egg Player":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Keshik Drum",
-        "count": 0
+      "Keshik Drum":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Morin Khuur",
-        "count": 0
+      "Morin Khuur":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Aviansie Dreamcoat",
-        "count": 0
+      "Aviansie Dreamcoat":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ceremonial Plume",
-        "count": 0
+      "Ceremonial Plume":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Peacocking Parasol",
-        "count": 0
+      "Peacocking Parasol":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hawkeye Lens Multi-vision Scope",
-        "count": 0
+      "Hawkeye Lens Multi-vision Scope":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Talon-3 Razor Wing",
-        "count": 0
+      "Talon-3 Razor Wing":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Prototype Gravimeter",
-        "count": 0
+      "Prototype Gravimeter":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Songbird Recorder",
-        "count": 0
+      "Songbird Recorder":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Stormguard Gerege",
-        "count": 0
+      "Stormguard Gerege":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dayguard Shield",
-        "count": 0
+      "Dayguard Shield":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Golem Heart",
-        "count": 0
+      "Golem Heart":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Golem Instruction",
-        "count": 0
+      "Golem Instruction":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Blackfire Lance",
-        "count": 0
+      "Blackfire Lance":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Nightguard Shield",
-        "count": 0
+      "Nightguard Shield":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Flat Cap",
-        "count": 0
+      "Flat Cap":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Night Owl Flight Goggles",
-        "count": 0
+      "Night Owl Flight Goggles":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Prototype Godbow",
-        "count": 0
+      "Prototype Godbow":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Prototype Godstaff",
-        "count": 0
+      "Prototype Godstaff":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Prototype Godsword",
-        "count": 0
+      "Prototype Godsword":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Chuluu Stone",
-        "count": 0
+      "Chuluu Stone":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Quintessence Counter",
-        "count": 0
+      "Quintessence Counter":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Spherical Astrolabe",
-        "count": 0
+      "Spherical Astrolabe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ],
-    "Bandosian": [
-      {
-        "name": "Ekeleshuun Blinder Mask",
-        "count": 0
+    },
+    "Bandosian": {
+      "Ekeleshuun Blinder Mask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Narogoshuun 'Hob-da-gob' Ball",
-        "count": 0
+      "Narogoshuun 'Hob-da-gob' Ball":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Rekeshuun War Tether",
-        "count": 0
+      "Rekeshuun War Tether":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ogre Kyzaj Axe",
-        "count": 0
+      "Ogre Kyzaj Axe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ork Cleaver Sword",
-        "count": 0
+      "Ork Cleaver Sword":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Thorobshuun Battle Standard",
-        "count": 0
+      "Thorobshuun Battle Standard":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Yurkolgokh Stink Grenade",
-        "count": 0
+      "Yurkolgokh Stink Grenade":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "High Priest Crozier",
-        "count": 0
+      "High Priest Crozier":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "High Priest Mitre",
-        "count": 0
+      "High Priest Mitre":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "High Priest Orb",
-        "count": 0
+      "High Priest Orb":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Beastkeeper Helm",
-        "count": 0
+      "Beastkeeper Helm":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Idithuun Horn Ring",
-        "count": 0
+      "Idithuun Horn Ring":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Nosorog!' Sculpture",
-        "count": 0
+      "'Nosorog!' Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Garagorshuun Anchor",
-        "count": 0
+      "Garagorshuun Anchor":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ourg Megahitter",
-        "count": 0
+      "Ourg Megahitter":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Ourg Tower-goblin Cower Shield",
-        "count": 0
+      "Ourg Tower-Goblin Cower Shield":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dorgeshuun Spear",
-        "count": 0
+      "Dorgeshuun Spear":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Forged In War' Sculpture",
-        "count": 0
+      "'Forged In War' Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Huzamogaarb Chaos Crown",
-        "count": 0
+      "Huzamogaarb Chaos Crown":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Saragorgak Star Crown",
-        "count": 0
+      "Saragorgak Star Crown":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Drogokishuun Hook Sword",
-        "count": 0
+      "Drogokishuun Hook Sword":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Hobgoblin Mansticker",
-        "count": 0
+      "Hobgoblin Mansticker":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kal-i-kra Chieftain Crown",
-        "count": 0
+      "Kal-i-kra Chieftain Crown":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kal-i-kra Mace",
-        "count": 0
+      "Kal-i-kra Mace":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kal-i-kra Warhorn",
-        "count": 0
+      "Kal-i-kra Warhorn":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Horogothgar Cooking Pot",
-        "count": 0
+      "Horogothgar Cooking Pot":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Da Boss Man' Sculpture",
-        "count": 0
+      "'Da Boss Man' Sculpture":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ],
-    "Dragonkin": [
-      {
-        "name": "Ritual Bell",
-        "count": 0
+    },
+    "Dragonkin": {
+      "Ritual Bell":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Pasaha",
-        "count": 0
+      "Pasaha":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Vazara",
-        "count": 0
+      "Vazara":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Kilaya",
-        "count": 0
+      "Kilaya":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Death Mask",
-        "count": 0
+      "Death Mask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dragonkin Calendar",
-        "count": 0
+      "Dragonkin Calendar":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dragonkin Staff",
-        "count": 0
+      "Dragonkin Staff":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dragon Scalpel",
-        "count": 0
+      "Dragon Scalpel":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Protective Goggles",
-        "count": 0
+      "Protective Goggles":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Dragon Burner",
-        "count": 0
+      "Dragon Burner":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Orthenglass Flask",
-        "count": 0
+      "Orthenglass Flask":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Meditation Pipe",
-        "count": 0
+      "Meditation Pipe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Singing Bowl",
-        "count": 0
+      "Singing Bowl":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Personal Totem",
-        "count": 0
+      "Personal Totem":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Lingam Stone",
-        "count": 0
+      "Lingam Stone":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Master Control",
-        "count": 0
+      "Master Control":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Xolo Pickaxe",
-        "count": 0
+      "Xolo Pickaxe":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Xolo Hard Hat",
-        "count": 0
+      "Xolo Hard Hat":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Xolo Spear",
-        "count": 0
+      "Xolo Spear":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Xolo Shield",
-        "count": 0
+      "Xolo Shield":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "'Raksha' Idol",
-        "count": 0
+      "'Raksha' Idol":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       },
-      {
-        "name": "Gold Dish",
-        "count": 0
+      "Gold Dish":{
+"Level": 0,
+        "Stored": 0,
+        "Experience": 0,
+        "Materials": []
       }
-    ]
+    }
   },
   "Collections": {
     "Zarosian": [
-
-    ],
-    "Zamorakian": [
-
-    ],
-    "Saradominist": [
-
-    ],
-    "Dragonkin": [
-
-    ],
-    "Bandosian": [
-
-    ],
-    "Armadylean": [
-
-    ],
-    "Eblis": [
-
-    ],
-    "Art Critic Jacques": [
       {
-        "name": "Anarchic Abstraction",
-        "level": 89,
-        "artefacts": [
-          "'Disorder' painting",
-          "'The Lake of Fire' painting",
-          "'Pandemonium' tapestry"
+        "Name": "Zarosian I",
+"Level": 25,
+        "XP": 4271.8,
+        "Chronotes": 4216,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Venator Dagger",
+          "Venator Light Crossbow",
+          "Primis Elementis Standard",
+          "Legionary Gladius",
+          "Legionary Square Shield",
+          "Zaros Effigy",
+          "Zarosian Training Dummy",
+          "Legatus Maximus Figurine",
+          "'Solem in Umbra' Painting"
         ],
-        "total_mats": [
+        "Materials": [
           {
-            "name": "Vellum",
-            "count": 28
+            "Name": "Imperial Steel",
+            "Count": 24
           },
           {
-            "name": "Samite Silk",
-            "count": 28
+            "Name": "Tyrian Purple",
+            "Count": 14
           },
           {
-            "name": "Cadmium Red",
-            "count": 90
+            "Name": "Third Age Iron",
+            "Count": 74
           },
           {
-            "name": "White Oak",
-            "count": 28
+            "Name": "Zarosian Insignia",
+            "Count": 68
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 8
+          },
+          {
+            "Name": "Samite Silk",
+            "Count": 32
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 10
+          },
+          {
+            "Name": "White Oak",
+            "Count": 34
           }
         ]
       },
       {
-        "name": "Radiant Renaissance",
-        "level": 105,
-        "artefacts": [
-          "'Hallowed Be the Everlight' painting",
-          "'The Lord of Light' painting",
-          "'The Pride of Padosan' painting"
+        "Name": "Zarosian II",
+"Level": 81,
+        "XP": 46199.9,
+        "Chronotes": 11464,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Ancient Timepiece",
+          "Legatus Pendant",
+          "'Incite Fear' Spell Scroll",
+          "Pontifex Signet Ring",
+          "Ceremonial Mace",
+          "Pontifex Maximus Figurine",
+          "'Consensus Ad Idem' Painting",
+          "Pontifex Censer",
+          "Pontifex Crozier",
+          "Pontifex Mitre"
         ],
-        "total_mats": [
-
+        "Materials": [
+          {
+            "Name": "Tyrian Purple",
+            "Count": 50
+          },
+          {
+            "Name": "Goldrune",
+            "Count": 168
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 18
+          },
+          {
+            "Name": "Dragonstone",
+            "Count": 4
+          },
+          {
+            "Name": "Vellum",
+            "Count": 20
+          },
+          {
+            "Name": "Third Age Iron",
+            "Count": 72
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 64
+          },
+          {
+            "Name": "Samite Silk",
+            "Count": 42
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 56
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 126
+          },
+          {
+            "Name": "White Oak",
+            "Count": 10
+          }
         ]
       },
       {
-        "name": "Imperial Impressionism",
-        "level": 118,
-        "artefacts": [
-          "'Solem in Umbra' painting",
-          "'Consensus ad Idem' painting",
-          "'Prima Legio' painting"
+        "Name": "Zarosian III",
+"Level": 107,
+        "XP": 162000,
+        "Chronotes": 14884,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "'Exsanguinate' Spell Scroll",
+          "Necromantic Focus",
+          "Zarosian Ewer",
+          "Zarosian Stein",
+          "'Smoke Cloud' Spell Scroll",
+          "Vigorem Vial",
+          "Ancient Magic Tablet",
+          "'Animate Dead' Spell Scroll",
+          "Portable Phylactery"
         ],
-        "total_mats": [
-
+        "Materials": [
+          {
+            "Name": "Vellum",
+            "Count": 120
+          },
+          {
+            "Name": "Third Age Iron",
+            "Count": 68
+          },
+          {
+            "Name": "Blood of Orcus",
+            "Count": 234
+          },
+          {
+            "Name": "Molten Glass",
+            "Count": 1
+          },
+          {
+            "Name": "Imperial Steel",
+            "Count": 158
+          },
+          {
+            "Name": "Ancient Vis",
+            "Count": 172
+          },
+          {
+            "Name": "Zarosian Insignia",
+            "Count": 60
+          }
+        ]
+      },
+      {
+        "Name": "Zarosian IV",
+"Level": 118,
+        "XP": 240000,
+        "Chronotes": 13620,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Praetorian Hood",
+          "Praetorian Robes",
+          "Praetorian Staff",
+          "Ancient Globe",
+          "Battle Plans",
+          "'Prima Legio' Painting"
         ]
       }
     ],
+    "Zamorakian": [
+      {
+        "Name": "Zamorakian I",
+"Level": 36,
+        "XP": 6371.9,
+        "Chronotes": 5188,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Hookah Pipe",
+          "Opulent Wine Goblet",
+          "Crest of Dagon",
+          "'Disorder' Painting",
+          "Imp Mask",
+          "Lesser Demon Mask",
+          "Greater Demon Mask",
+          "Order of Dis Robes",
+          "Ritual Dagger"
+        ]
+      },
+      {
+        "Name": "Zamorakian II",
+"Level": 81,
+        "XP": 40133.3,
+        "Chronotes": 10292,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "Branding Iron",
+          "Manacles",
+          "'The Lake of Fire' Painting",
+          "'Lust' Metal Sculpture",
+          "Chaos Star",
+          "Spiked Dog Collar",
+          "Larupia Trophy",
+          "Lion Trophy",
+          "She-wolf Trophy"
+        ]
+      },
+      {
+        "Name": "Zamorakian III",
+"Level": 104,
+        "XP": 141000,
+        "Chronotes": 13216,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "'Torment' Metal Sculpture",
+          "'Pandemonium' Tapestry",
+          "Hellfire Haladie",
+          "Hellfire Katar",
+          "Hellfire Zaghnal",
+          "'Possession' Metal Sculpture",
+          "Trishula",
+          "Tsutsaroth Piercing"
+        ]
+      },
+      {
+        "Name": "Zamorakian IV",
+"Level": 116,
+        "XP": 182000,
+        "Chronotes": 10868,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "Chaos Elemental Trophy",
+          "Virius Trophy",
+          "Tsutsaroth Helm",
+          "Tsutsaroth Pauldron",
+          "Tsutsaroth Urumi"
+        ]
+      }
+    ],
+    "Saradominist": [
+      {
+        "Name": "Saradominist I",
+"Level": 56,
+        "XP": 14349.7,
+        "Chronotes": 7996,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "'Frying Pan'",
+          "Hallowed Lantern",
+          "Ceremonial Unicorn Ornament",
+          "Ceremonial Unicorn Saddle",
+          "Everlight Harp",
+          "Everlight Trumpet",
+          "Everlight Violin",
+          "Folded-Arm Figurine(Male)",
+          "Folded-Arm Figurine(Female)"
+        ]
+      },
+      {
+        "Name": "Saradominist II",
+"Level": 72,
+        "XP": 36399.9,
+        "Chronotes": 10404,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "Dominion Discus",
+          "Dominion Javelin",
+          "Dominion Pelte Shield",
+          "Bronze Dominion Medal",
+          "Silver Dominion Medal",
+          "Dominion Torch",
+          "Decorative Vase",
+          "Kantharos Cup",
+          "Patera Bowl"
+        ]
+      },
+      {
+        "Name": "Saradominist III",
+"Level": 100,
+        "XP": 77778,
+        "Chronotes": 9096,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "Dominarian Device",
+          "Fishing Trident",
+          "Amphora",
+          "Rod of Asclepius",
+          "Kopis Dagger",
+          "Xiphos Short Sword"
+        ]
+      },
+      {
+        "Name": "Saradominist IV",
+"Level": 117,
+        "XP": 216166.8,
+        "Chronotes": 14044,
+        "Tetra": true,
+        "Enabled": true,
+        "Artefacts": [
+          "'Hallowed Be the Everlight' Painting",
+          "'The Lord of Light' Painting",
+          "'The Pride of Padosan' Painting",
+          "'The Enlightened Soul' Scroll",
+          "'The Eudoxian Elements' Tablet",
+          "Doru Spear",
+          "Kontos Lance"
+        ]
+      }
+    ],
+    "Dragonkin": [
+      {
+        "Name": "Dragonkin I",
+"Level": 99,
+        "XP": 104277.8,
+        "Chronotes": 11048,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Pasaha",
+          "Ritual Bell",
+          "Kilaya",
+          "Vazara",
+          "Death Mask",
+          "Dragonkin Calendar",
+          "Dragonkin Staff"
+        ]
+      },
+      {
+        "Name": "Dragonkin II",
+"Level": 102,
+        "XP": 81666.6,
+        "Chronotes": 6888,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Dragon Scalpel",
+          "Protective Goggles",
+          "Dragon Burner",
+          "Orthenglass Flask"
+        ]
+      },
+      {
+        "Name": "Dragonkin III",
+"Level": 108,
+        "XP": 133666.7,
+        "Chronotes": 9304,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Meditation Pipe",
+          "Personal Totem",
+          "Singing Bowl",
+          "Lingam Stone",
+          "Master Control"
+        ]
+      },
+      {
+        "Name": "Dragonkin IV",
+"Level": 120,
+        "XP": 253333.4,
+        "Chronotes": 13960,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": [
+          "Xolo Hard Hat",
+          "Xolo Pickaxe",
+          "Xolo Shield",
+          "Xolo Spear",
+          "Gold Dish",
+          "'Raksha' Idol"
+        ]
+      }
+    ],
+    "Bandosian": [
+      {
+        "Name": "Bandosian I",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Bandosian II",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Bandosian III",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
+    ],
+    "Armadylean": [
+      {
+        "Name": "Bandosian I",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Bandosian II",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Bandosian III",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
+    ],
+    "Eblis": [
+      {
+        "Name": "Entertaining the Masses",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Finery of the Inquisition",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Imperial Sorcery",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Religious Iconography",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Urns of the Empire",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
+    ],
+    "Art Critic Jacques": [
+      {
+        "Name": "Anarchic Abstraction",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Radiant Renaissance",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Imperial Impressionism",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
+    ],
     "Chief Tess": [
-
+      {
+        "Name": "Blingy Fings",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Smoky Fings",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Hitty Fings",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Showy Fings",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
     ],
     "Red Rum Relics": [
-
+      {
+        "Name": "Red Rum Relics I",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Red Rum Relics II",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Red Rum Relics III",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
     ],
     "Green Gobbo Goodies": [
-
+      {
+        "Name": "Green Gobbo Goodies I",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Green Gobbo Goodies II",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Green Gobbo Goodies III",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
     ],
     "Wise Old Man": [
-
+      {
+        "Name": "Wise Am the Music Man",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Hat Problem",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Hat Hoarder",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Magic Man",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      },
+      {
+        "Name": "Knowledge is Power",
+"Level": 0,
+        "XP": 0,
+        "Chronotes": 0,
+        "Tetra": false,
+        "Enabled": true,
+        "Artefacts": []
+      }
     ]
   }
 }
